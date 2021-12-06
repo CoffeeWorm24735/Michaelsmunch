@@ -1,0 +1,94 @@
+--- 
+files: 
+  certificate: 
+    michaelsmunch_com_c2539_abfff_1645574399_dc732532d631e5a9e25a58bcde88e073: 
+      created: '1638221769'
+      domains: 
+        - michaelsmunch.com
+        - www.michaelsmunch.com
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: michaelsmunch.com and www.michaelsmunch.com
+      id: michaelsmunch_com_c2539_abfff_1645574399_dc732532d631e5a9e25a58bcde88e073
+      is_self_signed: 0
+      issuer.commonName: ZeroSSL RSA Domain Secure Site CA
+      issuer.organizationName: ZeroSSL
+      key_algorithm: rsaEncryption
+      modulus: c253992bda54650f10807c2ccebb707ef83317b0097a183fdf0653dad8a8dc9f153a4e20aba70aeb626f86b6daaaf3cf387b93b2d344bc1c262947bf1b9c1bfd4054167fc464d26eecf315136877209c28579e3345bfab66a439ac47f75bcca3fb5c92fe339deb4492186fc93d70ead24c0ffc924393cba48528454db28850d38bcced0e31be5edfe160b725f36aae881da877ed192314e74c3cbf321f5d7aca3f1d34116eba0ea3cf620cd9d13a620605eaeb4aa9c6ea4371c8e9d582682c67e69f4be615b6067c2b297b475e5d7e94b9e2b2a05036718f7412794c2e5cc0b1ce90ef9914524b88c7f4f697a20434ad4c9044b429ac61805038afcbcd3abfff
+      modulus_length: 2048
+      not_after: '1645574399'
+      not_before: '1637712000'
+      serial: e483adfc6e7a4eb0006e2f3d4fcf2f55
+      signature_algorithm: sha384WithRSAEncryption
+      subject.commonName: michaelsmunch.com
+      validation_type: dv
+    michaelsmunch_com_cbfc5_e1e11_1669757483_b0c7ace2bc9cc1c7ca58d8ab34e3aadc: 
+      created: '1638221483'
+      domains: 
+        - michaelsmunch.com
+        - mail.michaelsmunch.com
+        - www.michaelsmunch.com
+        - cpanel.michaelsmunch.com
+        - webmail.michaelsmunch.com
+        - webdisk.michaelsmunch.com
+        - cpcontacts.michaelsmunch.com
+        - cpcalendars.michaelsmunch.com
+        - autodiscover.michaelsmunch.com
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: Cert for “michaelsmunch.com”
+      id: michaelsmunch_com_cbfc5_e1e11_1669757483_b0c7ace2bc9cc1c7ca58d8ab34e3aadc
+      is_self_signed: 1
+      issuer.commonName: michaelsmunch.com
+      issuer.organizationName: ~
+      key_algorithm: rsaEncryption
+      modulus: cbfc5e94508ce7ea3e9fd63196327d1b58d03e5d105992da1d2c15462f21ee078f95e496cce401918bdc10457f3b035ed0e674f049924f46115b59c9edd66344a2e85c96ae557aa07365f8f7e4b6f4cfeba8d029325393d33f520075deace6e65b1d81f2696e5d8a98627b28c61648e5369cef615d86f1e43b51af1e9a14b61da925bbf736685f9efa40d6ece39af115386e2b662ef564fe4e3f95481d507fa5a34e31f2e7b7ccb47bd0fa32d465dc87bb68553d61b970eebe2c08a8a10658ad63e52ed5855e209e4403a9c720cdb86a007d8cd6e733926a4bb4c731f6d759c9f212e452dc10556183b3da2db551bc7694f6df342e4789acb3294e96c74e1e11
+      modulus_length: 2048
+      not_after: '1669757483'
+      not_before: '1638221483'
+      serial: 6146f31f
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: michaelsmunch.com
+      validation_type: ~
+  key: 
+    c2539_abfff_21d80d73642defed72cd2c76d23373a9: 
+      created: '1638221919'
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: michaelsmunch.com
+      id: c2539_abfff_21d80d73642defed72cd2c76d23373a9
+      key_algorithm: rsaEncryption
+      modulus: c253992bda54650f10807c2ccebb707ef83317b0097a183fdf0653dad8a8dc9f153a4e20aba70aeb626f86b6daaaf3cf387b93b2d344bc1c262947bf1b9c1bfd4054167fc464d26eecf315136877209c28579e3345bfab66a439ac47f75bcca3fb5c92fe339deb4492186fc93d70ead24c0ffc924393cba48528454db28850d38bcced0e31be5edfe160b725f36aae881da877ed192314e74c3cbf321f5d7aca3f1d34116eba0ea3cf620cd9d13a620605eaeb4aa9c6ea4371c8e9d582682c67e69f4be615b6067c2b297b475e5d7e94b9e2b2a05036718f7412794c2e5cc0b1ce90ef9914524b88c7f4f697a20434ad4c9044b429ac61805038afcbcd3abfff
+      modulus_length: 2048
+    cbfc5_e1e11_dce23506d53f1b9c0d4b4e962cf4adc5: 
+      created: '1638221483'
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: Key for “michaelsmunch.com”
+      id: cbfc5_e1e11_dce23506d53f1b9c0d4b4e962cf4adc5
+      key_algorithm: rsaEncryption
+      modulus: cbfc5e94508ce7ea3e9fd63196327d1b58d03e5d105992da1d2c15462f21ee078f95e496cce401918bdc10457f3b035ed0e674f049924f46115b59c9edd66344a2e85c96ae557aa07365f8f7e4b6f4cfeba8d029325393d33f520075deace6e65b1d81f2696e5d8a98627b28c61648e5369cef615d86f1e43b51af1e9a14b61da925bbf736685f9efa40d6ece39af115386e2b662ef564fe4e3f95481d507fa5a34e31f2e7b7ccb47bd0fa32d465dc87bb68553d61b970eebe2c08a8a10658ad63e52ed5855e209e4403a9c720cdb86a007d8cd6e733926a4bb4c731f6d759c9f212e452dc10556183b3da2db551bc7694f6df342e4789acb3294e96c74e1e11
+      modulus_length: 2048
+indexes: 
+  certificate: 
+    modulus: 
+      c253992bda54650f10807c2ccebb707ef83317b0097a183fdf0653dad8a8dc9f153a4e20aba70aeb626f86b6daaaf3cf387b93b2d344bc1c262947bf1b9c1bfd4054167fc464d26eecf315136877209c28579e3345bfab66a439ac47f75bcca3fb5c92fe339deb4492186fc93d70ead24c0ffc924393cba48528454db28850d38bcced0e31be5edfe160b725f36aae881da877ed192314e74c3cbf321f5d7aca3f1d34116eba0ea3cf620cd9d13a620605eaeb4aa9c6ea4371c8e9d582682c67e69f4be615b6067c2b297b475e5d7e94b9e2b2a05036718f7412794c2e5cc0b1ce90ef9914524b88c7f4f697a20434ad4c9044b429ac61805038afcbcd3abfff: 
+        michaelsmunch_com_c2539_abfff_1645574399_dc732532d631e5a9e25a58bcde88e073: ~
+      cbfc5e94508ce7ea3e9fd63196327d1b58d03e5d105992da1d2c15462f21ee078f95e496cce401918bdc10457f3b035ed0e674f049924f46115b59c9edd66344a2e85c96ae557aa07365f8f7e4b6f4cfeba8d029325393d33f520075deace6e65b1d81f2696e5d8a98627b28c61648e5369cef615d86f1e43b51af1e9a14b61da925bbf736685f9efa40d6ece39af115386e2b662ef564fe4e3f95481d507fa5a34e31f2e7b7ccb47bd0fa32d465dc87bb68553d61b970eebe2c08a8a10658ad63e52ed5855e209e4403a9c720cdb86a007d8cd6e733926a4bb4c731f6d759c9f212e452dc10556183b3da2db551bc7694f6df342e4789acb3294e96c74e1e11: 
+        michaelsmunch_com_cbfc5_e1e11_1669757483_b0c7ace2bc9cc1c7ca58d8ab34e3aadc: ~
+    subject.commonName: 
+      michaelsmunch.com: 
+        michaelsmunch_com_c2539_abfff_1645574399_dc732532d631e5a9e25a58bcde88e073: ~
+        michaelsmunch_com_cbfc5_e1e11_1669757483_b0c7ace2bc9cc1c7ca58d8ab34e3aadc: ~
+uniques: 
+  certificate: 
+    friendly_name: 
+      Cert for “michaelsmunch.com”: michaelsmunch_com_cbfc5_e1e11_1669757483_b0c7ace2bc9cc1c7ca58d8ab34e3aadc
+      michaelsmunch.com and www.michaelsmunch.com: michaelsmunch_com_c2539_abfff_1645574399_dc732532d631e5a9e25a58bcde88e073
+  key: 
+    friendly_name: 
+      Key for “michaelsmunch.com”: cbfc5_e1e11_dce23506d53f1b9c0d4b4e962cf4adc5
+      michaelsmunch.com: c2539_abfff_21d80d73642defed72cd2c76d23373a9
+    modulus:ecdsa_curve_name:ecdsa_public: 
+      c253992bda54650f10807c2ccebb707ef83317b0097a183fdf0653dad8a8dc9f153a4e20aba70aeb626f86b6daaaf3cf387b93b2d344bc1c262947bf1b9c1bfd4054167fc464d26eecf315136877209c28579e3345bfab66a439ac47f75bcca3fb5c92fe339deb4492186fc93d70ead24c0ffc924393cba48528454db28850d38bcced0e31be5edfe160b725f36aae881da877ed192314e74c3cbf321f5d7aca3f1d34116eba0ea3cf620cd9d13a620605eaeb4aa9c6ea4371c8e9d582682c67e69f4be615b6067c2b297b475e5d7e94b9e2b2a05036718f7412794c2e5cc0b1ce90ef9914524b88c7f4f697a20434ad4c9044b429ac61805038afcbcd3abfff: c2539_abfff_21d80d73642defed72cd2c76d23373a9
+      cbfc5e94508ce7ea3e9fd63196327d1b58d03e5d105992da1d2c15462f21ee078f95e496cce401918bdc10457f3b035ed0e674f049924f46115b59c9edd66344a2e85c96ae557aa07365f8f7e4b6f4cfeba8d029325393d33f520075deace6e65b1d81f2696e5d8a98627b28c61648e5369cef615d86f1e43b51af1e9a14b61da925bbf736685f9efa40d6ece39af115386e2b662ef564fe4e3f95481d507fa5a34e31f2e7b7ccb47bd0fa32d465dc87bb68553d61b970eebe2c08a8a10658ad63e52ed5855e209e4403a9c720cdb86a007d8cd6e733926a4bb4c731f6d759c9f212e452dc10556183b3da2db551bc7694f6df342e4789acb3294e96c74e1e11: cbfc5_e1e11_dce23506d53f1b9c0d4b4e962cf4adc5
