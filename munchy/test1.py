@@ -28,5 +28,10 @@ val = (txtYear, txtLocker, txtPipelinePunch, txtUltraWhite, txtMangoLoco, txtDai
 mycursor.execute(sql, val)
 
 mydb.commit()
+ssql = "SELECT * FROM Admins WHERE username = %s AND password = %s"
+vval = ("Admin", "Brady123!")
+mycursor.execute(ssql, vval)
 
+myresult = mycursor.fetchall()
+print(myresult)
 print(mycursor.rowcount, "record inserted.")

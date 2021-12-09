@@ -57,16 +57,17 @@ def say_hello(name):
   
 @app.route('/login', methods=['GET', 'POST'])
 def login():
+    request_json = request.json
     # Output message if something goes wrong...
     msg = ''
     # Check if "username" and "password" POST requests exist (user submitted form)
     if request.method == 'POST' and 'username' in request.form and 'password' in request.form:
         # Create variables for easy access
-        username = request.form['username']
-        password = request.form['password']
+        username = request_json.get('username')
+        password = request_json.get('password')
         # Check if account exists using MySQL
         
-        mycursor.execute('SELECT * FROM accounts WHERE username = %s AND password = %s', (username, password,))
+        mycursor.execute('SELECT * FROM Admins WHERE username = %s AND password = %s', (username, password,))
         # Fetch one record and return result
         account = mycursor.fetchone()
         # If account exists in accounts table in out database
